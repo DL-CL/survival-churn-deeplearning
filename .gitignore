@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+
+# --- Outils dev ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Données brutes et traitées (jamais versionnées) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Artefacts de modèles entraînés (jamais versionnés) ---
+/models/
+*.joblib
+*.pkl
+*.sav
+*.pt
+*.pth
+*.h5
+*.keras
+
+# --- Secrets & environnement ---
+.env
+.env.*
+
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,10 @@
+# Normaliser les fins de ligne : LF partout (évite les mélodies CRLF Windows / LF Linux)
+* text=auto eol=lf
+
+# Binaires
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.csv binary

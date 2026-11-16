@@ -1,0 +1,21 @@
+[project]
+name = "survival-churn-deeplearning"
+version = "0.1.0"
+description = "Analyse de survie avec Deep Learning : prédire quand un client résilie (Telco Customer Churn), avec gestion de la censure."
+readme = "README.md"
+# Python 3.10 à 3.12 : numpy<2.0 (compatibilité pycox) n'a pas de wheels pour 3.13+
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-ra"
