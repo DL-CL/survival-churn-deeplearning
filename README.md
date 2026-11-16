@@ -27,6 +27,7 @@ courbes de Kaplan-Meier pour l'exploratoire.
 ## Démarrage rapide
 
 ```bash
+# Python 3.10 à 3.12 requis (CI sur 3.11)
 python -m venv .venv
 source .venv/bin/activate        # Windows : .venv\Scripts\activate
 pip install -r requirements.txt
