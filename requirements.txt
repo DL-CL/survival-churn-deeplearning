@@ -10,7 +10,7 @@ lifelines>=0.27
 scikit-survival>=0.22
 pycox>=0.2.3
 torch>=2.0
-torchtuples>=0.5
+torchtuples>=0.2.2
 
 # ---- Visualisation & démo ----
 matplotlib>=3.7
